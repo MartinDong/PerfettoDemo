@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/id_chat_icon"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/adventure_time" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:textColor="#78A">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/id_chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="bottom"
+                android:padding="20dp"
+                android:text="Hello_world" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/id_chat_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="20dp"
+                android:text="Hello_world"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/id_chat_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:padding="20dp"
+            android:text="Hello_world" />
+    </LinearLayout>
+</LinearLayout>
