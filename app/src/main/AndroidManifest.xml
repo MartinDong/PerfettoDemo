@@ -15,11 +15,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <!--  <intent-filter>
+              <intent-filter>
                   <action android:name="android.intent.action.MAIN" />
 
                   <category android:name="android.intent.category.LAUNCHER" />
-              </intent-filter>-->
+              </intent-filter>
         </activity>
         <activity
             android:name=".systrace.SystraceActivity"
@@ -33,11 +33,11 @@
         <activity
             android:name=".systrace.SystraceOptimizationActivity"
             android:exported="true">
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity
             android:name=".systrace.RenderBlockActivity"
@@ -52,6 +52,15 @@
             android:name=".systrace.BlockListActivity"
             android:exported="true">
             <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".memory.LeakActivity"
+            android:exported="true">
+           <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />

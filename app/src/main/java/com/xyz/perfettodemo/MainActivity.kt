@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Trace
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.xyz.perfettodemo.memory.LeakActivity
 import com.xyz.perfettodemo.systrace.SystraceActivity
 
 
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openSystraceDemo(view: View) {
-        val systraceIntent = Intent(this, SystraceActivity::class.java)
+        val systraceIntent = Intent(this, LeakActivity::class.java)
 
         startActivity(systraceIntent)
     }
